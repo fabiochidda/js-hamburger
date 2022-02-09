@@ -1,5 +1,5 @@
 const navHamburgerButtonOpen = document.querySelector(".fa-bars");
-console.log(navHamburgerButton);
+console.log(navHamburgerButtonOpen);
 
 const navHamburgerMenu = document.querySelector(".hamburger-menu");
 console.log(navHamburgerMenu);
@@ -11,6 +11,7 @@ navHamburgerButtonOpen.addEventListener("click" , function() {
 })
 
 const navHamburgerButtonClose = document.querySelector(".fa-times");
+console.log(navHamburgerButtonClose);
 
 navHamburgerButtonClose.addEventListener("click" , function() {
 
